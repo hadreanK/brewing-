@@ -31,5 +31,6 @@ Potential Classes and their uses
 
 4. BeerButtons
     a. .Setup
-        i. Sets up interrupts and 
+        i. Sets up interrupts and hardware
+        ii. Copy from that library I made
         
