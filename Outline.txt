@@ -16,6 +16,7 @@ Potential Classes and their uses
         i. Set a timer to go off after a certain amount of time has elapsed
         ii. Input is time in seconds
         iii. could have it create a new instance for each timer
+	iv. Display the amount of time left on the timer
     b. .Disable
         i. This turns off a timer, either while it's going or after it's set 
     c. .Buzz
