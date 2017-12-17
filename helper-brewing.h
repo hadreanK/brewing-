@@ -28,4 +28,11 @@ public:
     void clearTimers();
 };
 
+class Buttons{
+	int pressed[3]; // to record when a button has been pressed	
+public:
+	int count[3]; // to count how many times a button has been pressed
+	void trigger(int buttonID);
+	void debounce();	
+
 #endif

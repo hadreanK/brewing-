@@ -50,5 +50,23 @@ void Timers::clearTimers(){
     } // for
 }
 
+// BUTTON DEFINITIONS
+void Buttons::trigger(int buttonID){
+	pressed[buttonID] = 1;
+}
+
+void Buttons::debounce(){
+// The big question here is, would a for loop be faster, or would 
+// adding each element together be faster? I think adding each element
+// might be faster...
+
+count[0] = count[0] + pressed[0]; 
+count[1] = count[1] + pressed[1];
+count[2] = count[2] + pressed[2];
+count[3] = count[3] + pressed[3];
+}
+
+
+
 
 #endif
