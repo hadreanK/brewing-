@@ -12,10 +12,10 @@ This file has the helper functions and classes for main-brewing.ino
 
 
 // THERMOMETER DEFINITIONS
-Thermometers:setUp(int thermoPin){
+Thermometers::setUp(int thermoPin){
 
     pinMode(thermoPin,OUTPUT);
-
+//might migrate more code in here later
 
 }
 
@@ -23,7 +23,7 @@ Thermometers:setUp(int thermoPin){
 void Timers::setUp(int buzzerPinSet){
     t = 0; // zero out the time
     buzzerPin = buzzerPinSet; // store the buzzer pin
-    pinMode(buzzerPinSet,OUTPUT);
+    pinMode(buzzerPin,OUTPUT);
 }
 
 void Timers::setTimer(int timerID, unsigned long timerValue){
