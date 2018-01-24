@@ -34,4 +34,10 @@ Potential Classes and their uses
     a. .Setup
         i. Sets up interrupts and hardware
         ii. Copy from that library I made
+	b. .Trigger
+		i. Registers that a button has been pressed
+		ii. Takes the button ID
+	c. Also counts how many times certain buttons have been pressed
+	d. Has a member for recording that a button has been pressed
+ 
         
